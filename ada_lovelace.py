@@ -4,8 +4,8 @@ ______________________________________________________________________________
 ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 About:  In honour of Ada Lovelace, and the worlds first computer program which
         Lovelace wrote, which can be found in a collection of Lovelaces notes 
-        on a note labelled G. Her code was written to calculate Bernouilli 
-        numbers. This program calculates Bernouilli numbers using the recursive
+        on a note labelled G. Her code was written to calculate  Bernoulli 
+        numbers. This program calculates  Bernoulli numbers using the recursive
         method, which is Lovelace was using.
 
         Note G was the last of a series of notes written by Lovelace which
@@ -19,7 +19,7 @@ About:  In honour of Ada Lovelace, and the worlds first computer program which
         first ever bug as one division was the wrong way around.
 
         Lovelace's original program was written to calculate the 8th
-        Bernoulli number -1/30 ≈ 0.033333333 but due to the small error
+        Bernoulli  number -1/30 ≈ 0.033333333 but due to the small error
         would have returned  -25621/630 ≈ -40.6682539683.
 
         This program, thanks to being able to run and test my code, a 
@@ -29,7 +29,7 @@ About:  In honour of Ada Lovelace, and the worlds first computer program which
 
         This program is written for fun only. For faster and more stable 
         calculation of Bernoulli numbers in Python, 
-        use scipy.special bernoulli
+        use scipy.special bernoulli 
 
         For more info:
         https://en.wikipedia.org/wiki/Ada_Lovelace
@@ -65,4 +65,4 @@ def bern(m):
             return dec.Decimal(1)
         
 input_number = int(input("please enter a number\n"))
-print(f"The {input_number}th Bernouilli number = {bern(input_number)}")    
+print(f"The {input_number}th  Bernoulli number = {bern(input_number)}")    
