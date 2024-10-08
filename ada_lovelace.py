@@ -64,10 +64,5 @@ def bern(m):
         else:
             return dec.Decimal(1)
         
-print("\n".join([f"{n}  {bern(n)}" for n in range(0, 20)]))
-
 input_number = int(input("please enter a number\n"))
 print(f"The {input_number}th Bernouilli number = {bern(input_number)}")    
-
-
-
